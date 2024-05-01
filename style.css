@@ -39,25 +39,29 @@ header{
 }
 
 .home-button{
-  height: 80px;
+  margin-top: 5px;
+  height: 60px;
 }
 .nav-left{
   display: flex;
   justify-content: space-between;
   width: 300px;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 .nav-right{
   display: flex;
-  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-top: 25px;
 }
 
 .search-icon,
 .user-icon,
 .bag-icon{
   color: var(--primary-color);
-  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .dropbar-menu{
@@ -67,12 +71,19 @@ header{
 @media (max-width: 680px){
   .dropbar-menu{
     display: flex;
-    margin-top: 30px;
+    margin-top: 25px;
   }
  
   .nav-left{
     display: none;
   }
+
+.search-icon,
+.user-icon,
+.bag-icon{
+  color: var(--primary-color);
+  margin-right: 10px;
+}
 }
 
 .sub-navbar{
